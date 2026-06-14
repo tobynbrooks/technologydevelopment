@@ -1,0 +1,20 @@
+site_name: Technology
+
+nav:
+  - Home: index.md
+  - Productive work: productive work/index.md
+  - Customer relationship: customer relationship/index.md
+
+theme:
+  name: mkdocs
+  custom_dir: overrides
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
+
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
