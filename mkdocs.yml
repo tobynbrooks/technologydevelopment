@@ -4,6 +4,8 @@ nav:
   - Home: index.md
   - Productive work: productive work/index.md
   - Customer relationship: customer relationship/index.md
+  - Office and admin: office and admin/index.md
+  - Unified database: unified database/index.md
 
 theme:
   name: mkdocs

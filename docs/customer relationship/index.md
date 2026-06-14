@@ -1,11 +1,6 @@
-# Productive work
+# Customer Relationship
 
-this is the homescreen for productive work
+The projects below show how we retain drivers across the whole vehicle lifecycle.
 
-
-this is why we do productive work and this is how to access the projects 
-
-link to [vision model](visionmodel.md)
-
-link to [Autopic App](autopicapp.md)
-
+- [Vision model](visionmodel.md)
+- [Autopic App](autopicapp.md)
