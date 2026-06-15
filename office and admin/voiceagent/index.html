@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Voice Agent Receptionist - Technology</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Technology</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../productive%20work/" class="nav-link">Productive work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../customer%20relationship/" class="nav-link">Customer relationship</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../" class="nav-link">Office and admin</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../unified%20database/" class="nav-link">Unified database</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#voice-agent-receptionist" class="nav-link">Voice Agent Receptionist</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#the-challenge" class="nav-link">The Challenge</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#what-it-does" class="nav-link">What It Does</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#primary-objectives" class="nav-link">Primary Objectives</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#platform-architecture" class="nav-link">Platform Architecture</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#appointment-booking" class="nav-link">Appointment Booking</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#knowledge-base-configuration" class="nav-link">Knowledge Base Configuration</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#roadmap" class="nav-link">Roadmap</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#the-admin-portal" class="nav-link">The Admin Portal</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#notifications" class="nav-link">Notifications</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#observability" class="nav-link">Observability</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#the-repository" class="nav-link">The Repository</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="voice-agent-receptionist">Voice Agent Receptionist</h1>
+<h2 id="the-challenge">The Challenge</h2>
+<p>Our ahops, and most others, lose business every time a phone goes unanswered. Calls come in outside of opening hours, during busy periods on the workshop floor, or when the front desk is already on another line. Each missed call is a potential booking lost to a competitor, and there is rarely any record that the call even happened.</p>
+<p>The scale of the problem is significant: some sites miss up to 20% of their calls on busy days, and with each job worth approximately £200 to the business, those unanswered calls add up to substantial lost revenue every week.</p>
+<p>This creates two distinct problems the voice agent set out to solve:</p>
+<ul>
+<li><strong>Missed revenue</strong> — after-hours and overflow calls go to voicemail or ring out entirely, so customers who want to book a service simply call the next garage on their list.</li>
+<li><strong>No visibility</strong> — without a record of who called, why, and what was said, the team has no way to follow up, no way to measure demand, and no way to improve how enquiries are handled.</li>
+</ul>
+<h2 id="what-it-does">What It Does</h2>
+<p>The Voice Agent is an AI-powered receptionist that answers calls on behalf of a garage, holding a natural, real time conversation with the caller. It is designed to provide a professional, always available presence without the cost of additional staffing.</p>
+<p>The agent can:</p>
+<ul>
+<li><strong>Answer calls</strong> — pick up after hours and missed calls with a natural sounding voice and handle interruptions like a real receptionist.</li>
+<li><strong>Book appointments</strong> — check availability and schedule a service against the garage calendar, reading the details back to the caller for confirmation. (currently being rebuilt).</li>
+<li><strong>Take messages</strong> — capture the caller's name, number, reason for calling and a summary of the conversation for the team to follow up.</li>
+<li><strong>Answer common questions</strong> — respond accurately to FAQs about hours, location, services and pricing using a configured knowledge base.</li>
+<li><strong>Escalate and request callbacks</strong> — recognise when a query needs a human and route a callback request to the team by email.</li>
+</ul>
+<h2 id="primary-objectives">Primary Objectives</h2>
+<ul>
+<li>Ensure no after hours call goes unanswered.</li>
+<li>Allow customers to book appointments 24/7.</li>
+<li>Capture messages and caller details for reliable follow-up.</li>
+<li>Provide full visibility into every interaction through a simple admin portal.</li>
+</ul>
+<h2 id="platform-architecture">Platform Architecture</h2>
+<p>The platform pairs a real time voice pipeline with a Next.js admin portal and a Postgres backend. The voice agent is built on the LiveKit Agents framework, with calls routed in over a Twilio SIP trunk. Speech is transcribed in real time, processed by a fast hosted LLM, and spoken back through a natural text-to-speech voice — all engineered for low latency so the conversation feels natural.</p>
+<p>Core technologies used across the platform include:</p>
+<ul>
+<li>LiveKit Agents for the real-time voice pipeline</li>
+<li>Twilio (SIP trunk) for telephony and the dedicated phone number</li>
+<li>Deepgram for speech-to-text transcription</li>
+<li>Cerebras-hosted models for fast, low-latency LLM responses</li>
+<li>ElevenLabs / Cartesia for natural voice synthesis</li>
+<li>Next.js on Vercel for the admin portal</li>
+<li>Clerk for authentication</li>
+<li>PostgreSQL (Neon) with Drizzle ORM for the database</li>
+</ul>
+<div class="mermaid">flowchart TD
+    A[Caller on phone]:::input --&gt; B[Twilio SIP trunk]
+    B --&gt; C[LiveKit voice agent]
+    C --&gt; D[Deepgram speech-to-text]
+    C --&gt; E[Cerebras LLM]
+    C --&gt; F[ElevenLabs / Cartesia voice]
+    C --&gt; G[Calendar booking]
+    C --&gt; H[PostgreSQL Neon]
+    H --&gt; I[Admin portal Next.js]
+    C --&gt; J[Email notifications]:::output
+
+    classDef input fill:#e1f5ee,stroke:#0f6e56,color:#085041
+    classDef output fill:#faeeda,stroke:#ba7517,color:#633806</div>
+<h2 id="appointment-booking">Appointment Booking</h2>
+<p>The agent checks availability before offering slots, books appointments with the customer's name, phone and service type, and confirms the details back to the caller. Notifications of new bookings are sent to the team by email. </p>
+<h2 id="knowledge-base-configuration">Knowledge Base Configuration</h2>
+<p>The agent's responses are driven by a garage knowledge base, ensuring answers are accurate and on brand. This covers:</p>
+<ul>
+<li>Business hours and location information</li>
+<li>Appointment types and durations, services offered and general pricing guidance</li>
+<li>Common FAQs such as payment methods and preparation instructions</li>
+<li>Booking rules including lead time, available slots and service constraints</li>
+</ul>
+<h2 id="roadmap">Roadmap</h2>
+<p>The current build delivers the MVP described above. Future enhancements under consideration include:</p>
+<ul>
+<li>Automatic call forwarding after business hours, to manage and review the MVP.</li>
+<li>Support for multiple phone numbers and locations</li>
+</ul>
+<h2 id="the-admin-portal">The Admin Portal</h2>
+<p>The Next.js portal is where the team oversees every interaction handled by the agent. Access is secured via Clerk authentication, and each garage location is managed separately. The portal exposes the full call log, complete transcripts, the actions the agent took on each call, messages left for callback, and the appointments booked — all filterable and searchable by date range and action type.</p>
+<p><strong>1. Location selector — choose which garage location to manage</strong></p>
+<p><img alt="Voice agent location selector" src="../images/voiceagentbranchscreen.png" /></p>
+<p><strong>2. Call detail — full transcript and a clear record of the actions the agent took, such as escalations and callback requests</strong></p>
+<p><img alt="Voice agent call detail and transcript" src="../images/voiceagentadminpanel.png" /></p>
+<h2 id="notifications">Notifications</h2>
+<p>When a caller requests a callback or leaves a message, the team receives an email with the caller's name, phone number, preferred time, the reason for the call and a summary of the conversation — with a link straight through to the full transcript in the portal.</p>
+<p><strong>Callback request email notification</strong></p>
+<p><img alt="Voice agent callback email" src="../images/voiceagentemail.png" /></p>
+<h2 id="observability">Observability</h2>
+<p>Every session is fully observable through LiveKit, giving a synced audio waveform, a timestamped transcript with transcription confidence, agent handoffs, traces and session logs. This makes it straightforward to review real calls, tune conversation flows and diagnose any edge cases.</p>
+<p><strong>LiveKit session observability</strong></p>
+<p><img alt="LiveKit session observability" src="../images/livekitroom.png" /></p>
+<h2 id="the-repository">The Repository</h2>
+<ul>
+<li>https://github.com/Adder-Analytics/autopic</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
