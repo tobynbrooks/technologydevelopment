@@ -56,3 +56,6 @@ The platform is at an early stage. The data model is defined, the **Garage Hive*
 - Hosting the production service on Azure.
 - Connecting the voice agent and customer app to the unified record.
 - Defining usage monitoring and billing for the AI features built on top of the database.
+
+The repositry
+https://github.com/Autopic/autopic-core
