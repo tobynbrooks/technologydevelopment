@@ -339,6 +339,69 @@
   @media (max-width: 820px) {
     .contributors { grid-template-columns: 1fr; }
   }
+
+  .next-title {
+    margin: 0 0 1.1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+  }
+  .next {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.9rem;
+  }
+  .next a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.8rem;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--accent);
+    border-radius: 14px;
+    padding: 1rem 1.1rem;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(16,18,34,0.06);
+    transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+  }
+  .next a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 26px rgba(16,18,34,0.12);
+  }
+  .next .label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 0.2rem;
+  }
+  .next .name {
+    font-size: 0.98rem;
+    font-weight: 700;
+    color: var(--ink);
+    letter-spacing: -0.01em;
+  }
+  .next .arrow {
+    flex: 0 0 auto;
+    color: var(--accent);
+    font-size: 1.1rem;
+    line-height: 1;
+    transition: transform .18s ease;
+  }
+  .next a:hover .arrow { transform: translateX(3px); }
+  .next .n1 { --accent:#5b54e6; }
+  .next .n2 { --accent:#0ea5a3; }
+  .next .n3 { --accent:#e0791b; }
+  .next .n4 { --accent:#5b54e6; }
+  @media (max-width: 820px) {
+    .next { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 520px) {
+    .next { grid-template-columns: 1fr; }
+  }
   h1#overview-and-investment-thesis { display: none; }
 </style>
 
@@ -429,7 +492,38 @@
 </div>
 
 <p><br></p>
-<p>Explore each pillar — <a href="productive%20work/">Productive work</a>, <a href="office%20and%20admin/">Office and admin</a>, <a href="customer%20relationship/">Customer relationship</a> — or the <a href="unified%20database/database/">Unified database</a> that underpins them.</p></div>
+<h2 class="next-title">Where to next</h2>
+
+<div class="next">
+  <a class="n1" href="productive%20work/">
+    <span>
+      <span class="label">Pillar 01</span><br>
+      <span class="name">Productive work</span>
+    </span>
+    <span class="arrow">&rarr;</span>
+  </a>
+  <a class="n2" href="office%20and%20admin/">
+    <span>
+      <span class="label">Pillar 02</span><br>
+      <span class="name">Office &amp; admin</span>
+    </span>
+    <span class="arrow">&rarr;</span>
+  </a>
+  <a class="n3" href="customer%20relationship/">
+    <span>
+      <span class="label">Pillar 03</span><br>
+      <span class="name">Customer relationship</span>
+    </span>
+    <span class="arrow">&rarr;</span>
+  </a>
+  <a class="n4" href="unified%20database/database/">
+    <span>
+      <span class="label">Foundation</span><br>
+      <span class="name">Unified database</span>
+    </span>
+    <span class="arrow">&rarr;</span>
+  </a>
+</div></div>
             </div>
         </div>
 
@@ -511,5 +605,5 @@
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2026-06-15 18:41:01.228361+00:00
+Build Date UTC : 2026-06-15 19:00:06.862153+00:00
 -->
