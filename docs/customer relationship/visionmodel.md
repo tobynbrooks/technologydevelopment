@@ -13,7 +13,7 @@ The objective was to build a system capable of producing a consistent, evidence-
 
 ##Modelling Framework
 
-The development work focused on building a computer vision pipeline capable of inferring tread depth directly from images of a tyre. That could be used from a smart phone. 
+The development work focused on building a computer vision pipeline capable of inferring tread depth directly from images of a tyre. A tool that could be used from a smart phone. 
 
 
 ##Operationalisation

@@ -2,7 +2,7 @@
 
 ##The Challenge
 
-Our ahops, and most others, lose business every time a phone goes unanswered. Calls come in outside of opening hours, during busy periods on the workshop floor, or when the front desk is already on another line. Each missed call is a potential booking lost to a competitor, and there is rarely any record that the call even happened.
+Our shops, and most others, lose business every time a phone goes unanswered. Calls come in outside of opening hours, during busy periods on the workshop floor, or when the front desk is already on another line. Each missed call is a potential booking lost to a competitor, and there is rarely any record that the call even happened.
 
 The scale of the problem is significant: some sites miss up to 20% of their calls on busy days, and with each job worth approximately £200 to the business, those unanswered calls add up to substantial lost revenue every week.
 
@@ -72,14 +72,15 @@ The agent's responses are driven by a garage knowledge base, ensuring answers ar
 - Business hours and location information
 - Appointment types and durations, services offered and general pricing guidance
 - Common FAQs such as payment methods and preparation instructions
-- Booking rules including lead time, available slots and service constraints
+- Booking rules including lead time, available slots, pricing, and service constraints
 
 ##Roadmap
 
 The current build delivers the MVP described above. Future enhancements under consideration include:
 
 - Automatic call forwarding after business hours, to manage and review the MVP.
-- Support for multiple phone numbers and locations
+- Support for multiple phone numbers and locations.
+- Outreach to reduce the significant number of no-shows.
 
 ##The Admin Portal
 

@@ -17,7 +17,7 @@ The unified database provides a single, shared data model for customers, vehicle
 ##Primary Objectives
 
 - Establish a single canonical record for customers, vehicles and bookings.
-- Integrate with the core operational systems, starting with Garage Hive.
+- Integrate with the core operational systems, starting with Garage Hive ERP.
 - Provide a stable, production-ready foundation for AI and automation features.
 - Expose simple, reliable interfaces for resolving and creating records.
 
@@ -51,7 +51,7 @@ A web console exercises the identity API, proxying requests through the server. 
 
 ##Roadmap
 
-The platform is at an early stage. The data model is defined, the **Garage Hive** integration is being installed in a snadbox, and the service is being deployed to Microsoft Azure. Planned next steps include:
+The platform is at an early stage. The data model is defined, the **Garage Hive** integration is being installed in a sandbox, and the service is being deployed to Microsoft Azure. Planned next steps include:
 
 - Hosting the production service on Azure.
 - Connecting the voice agent and customer app to the unified record.

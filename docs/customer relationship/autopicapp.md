@@ -6,7 +6,7 @@ Most drivers have no single place to understand the state of their vehicle. Addi
 
 This creates two distinct problems the app set out to solve:
 
-- **Low engagement** — a customer may not need anything from a workshop for six to twelve months, so there is no natural reason to return, and no way to know whether they valued the relationship at all.
+- **Low engagement** — a customer may not need anything from a workshop for six to twelve months, so there is no natural reason to return, and no way to improve the relationship with the garage or the usres enjoyment and freedom of motoring.
 - **No habit loop** — without proactive, useful prompts, the app risks being a one-time download rather than a tool the customer returns to, which makes it difficult to build trust or drive repeat business.
 
 
@@ -14,7 +14,7 @@ This creates two distinct problems the app set out to solve:
 
 The app is live and validated with real production users. It has reached a working MVP with one completed reward cycle and a small base of beta users.
 
-- ~40 beta users and downloads
+- ~60 beta users and downloads
 - iOS App Store release live
 - Google Play live
 - One completed reward cycle

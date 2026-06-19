@@ -313,7 +313,10 @@
 
 
 
-<p class="hero-sub">This webiste showcases the technology layer behind the thesis you have seen: the data and operations platform we are building on top of every garage we acquire. In the future this technology will be of use to more people than just our own network.  It targets the parts of the value chain with the greatest upside — some with a direct, measurable impact on profit, others, like customer lifetime value, that compound more slowly. The pages here set out the technical and strategic detail behind three pillars, each optimised through one technology led approach on a single data foundation.</p>
+<p class="hero-sub">This website showcases the technology layer behind the thesis you have seen: the data and operations platform we are building on top of every garage we acquire. Everything in the site is already built and repositries are linked at the bottom of the pages.
+<p>In the future this technology will be useful to more people than just our own network.  It will either offer demand to a broader garage network than our own, or become an operating system for our peers.
+<p>It targets the parts of the value chain with the greatest upside, some with a direct, measurable impact on profit, others, like customer lifetime value, that compound more slowly. 
+<p>The pages here set out the technical and strategic detail behind three pillars, each optimised through one technology led approach on a single data foundation.</p>
 
 <h2 class="pillars-title">Three pillars and one foundation layer</h2>
 

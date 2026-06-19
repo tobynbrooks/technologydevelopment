@@ -1,6 +1,6 @@
 # Customer Relationship
 
-The projects below show how we retain drivers across the whole vehicle lifecycle.
+Work on this pillar is designed to increase CLV. It is about making auto repair an improved propostiion for car owners.
 
 - [Vision model](visionmodel.md)
 - [Autopic App](autopicapp.md)
