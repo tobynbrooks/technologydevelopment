@@ -130,7 +130,7 @@
 
 <h1 id="voice-agent-receptionist">Voice Agent Receptionist</h1>
 <h2 id="the-challenge">The Challenge</h2>
-<p>Our ahops, and most others, lose business every time a phone goes unanswered. Calls come in outside of opening hours, during busy periods on the workshop floor, or when the front desk is already on another line. Each missed call is a potential booking lost to a competitor, and there is rarely any record that the call even happened.</p>
+<p>Our shops, and most others, lose business every time a phone goes unanswered. Calls come in outside of opening hours, during busy periods on the workshop floor, or when the front desk is already on another line. Each missed call is a potential booking lost to a competitor, and there is rarely any record that the call even happened.</p>
 <p>The scale of the problem is significant: some sites miss up to 20% of their calls on busy days, and with each job worth approximately £200 to the business, those unanswered calls add up to substantial lost revenue every week.</p>
 <p>This creates two distinct problems the voice agent set out to solve:</p>
 <ul>
@@ -188,13 +188,14 @@
 <li>Business hours and location information</li>
 <li>Appointment types and durations, services offered and general pricing guidance</li>
 <li>Common FAQs such as payment methods and preparation instructions</li>
-<li>Booking rules including lead time, available slots and service constraints</li>
+<li>Booking rules including lead time, available slots, pricing, and service constraints</li>
 </ul>
 <h2 id="roadmap">Roadmap</h2>
 <p>The current build delivers the MVP described above. Future enhancements under consideration include:</p>
 <ul>
 <li>Automatic call forwarding after business hours, to manage and review the MVP.</li>
-<li>Support for multiple phone numbers and locations</li>
+<li>Support for multiple phone numbers and locations.</li>
+<li>Outreach to reduce the significant number of no-shows.</li>
 </ul>
 <h2 id="the-admin-portal">The Admin Portal</h2>
 <p>The Next.js portal is where the team oversees every interaction handled by the agent. Access is secured via Clerk authentication, and each garage location is managed separately. The portal exposes the full call log, complete transcripts, the actions the agent took on each call, messages left for callback, and the appointments booked — all filterable and searchable by date range and action type.</p>
